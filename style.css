@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
@@ -31,9 +32,45 @@ body::-webkit-scrollbar {
 main{
     width: 100%;
     margin: auto;
+ }
+
+ .navbar-1{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #f7f7f7;
+    z-index: +2;
+ }
+
+ .navbar-1 a img {
+    position: relative;
+    width: 55px;
+    padding: 0px;
+    left: 130px;
+
 }
 
-.navbar{
+.navbar-2 a{
+        position: relative;
+        right: 150px;
+        color: #ff2222;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 20px;
+        text-decoration: none;
+}
+
+.navbar-2 a:hover{
+    color: black;
+}
+
+
+
+
+/* .navbar{
     position: fixed;
     width: 100%;
     background-color: #f7f7f7;
@@ -53,7 +90,7 @@ main{
     color: #ff2222;
     font-size: 15px;
     margin-left: 15px;
-}
+} */
 
 .footer {
     display: flex;
@@ -204,7 +241,7 @@ main{
     width: 380px;
     height: 130px;
     font-size: 13px;
-    padding: 45px;
+    padding: 30px;
     color: #ff2222;
     top:-1100px;
     left: 0px;
@@ -520,7 +557,7 @@ font-weight: none;
         background-color: none;
         width: 100%;
         height: 120px;
-        font-size: 20px;
+        font-size: 1.5vw;
     }
 
     .vec1 p{
@@ -549,7 +586,7 @@ font-weight: none;
         background-color: none;
         width: 100%;
         height: 120px;
-        font-size: 20px;
+        font-size: 1.5vw;
     }
 
     .vec4 p{
@@ -573,7 +610,7 @@ font-weight: none;
         background-color: none;
         width: 100%;
         height: 120px;
-        font-size: 20px;
+        font-size: 1.5vw;
     }
 
     .vec6 p{
@@ -623,8 +660,7 @@ font-weight: none;
         background-color: none;
         width: 100%;
         height: 120px;
-        font-size: 20px;
-    }
+        font-size: 1.5vw;    }
 
     .vec11 p{
 
@@ -850,7 +886,7 @@ font-weight: none;
         height: 380px;
         color: #fff;
         border-radius: 10px;
-        background-color: #FF4949;  
+        background-color: #ff2222;  
     }
     
     .chat img{
@@ -955,7 +991,7 @@ font-weight: none;
 
     form .btn {
         position: relative;
-        background-color: #FF4949;
+        background-color: #ff2222;
         color: #fff;
         text-align: center;
         padding: 10px;
@@ -975,7 +1011,7 @@ font-weight: none;
         height: 30px;
         border: none;
         border-radius: 5px;
-        background-color: #FF4949;
+        background-color: #ff2222;
         color: #fff;
         font-size: 12px;    
     }
@@ -1013,7 +1049,7 @@ font-weight: none;
 
     #brand-identity{ 
         width: 100%;
-        height: 450px;
+        height: 500px;
         border: 1px solid white;
         }  
 
@@ -1024,8 +1060,7 @@ font-weight: none;
         font-size: 25px;
         font-weight: bold;
         color: #ff2222;
-        top: 0px;
-        z-index: +2;
+        top: 30px;
     }
 
     .carousel{
@@ -1035,15 +1070,15 @@ font-weight: none;
         justify-content: center;
         align-items: center;
         margin: auto;
-        top: 20px;
+        top: 30px;
     }
-
-    .bott-nav {
+    .nav-bottom{
         display: block;
     }
 
-    .fixed-bottom{
+    .side-scroll-icons{
         display: none;
     }
+
 
    

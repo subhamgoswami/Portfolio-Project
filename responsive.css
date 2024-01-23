@@ -1,435 +1,13 @@
-@media (max-width:991px) {
-    .nav-link{
-        text-align: center;
-    }
-    
-}
-
-/*@media screen and (max-width: 480px) and (min-width: 301px) {
-
-    .nav-link {
-        font-size: 12px;
-    }
-    
-    .first-section{
-        top: 350px;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .two-sec .side-design1 {
-        width: 1400px;
-        height: 1400px;
-        top: -1250px;
-        left: 350px;    
-    }
-
-    .one-sec{
-        position: relative;
-        top: -100px;
-        border: none;
-        text-align: center;
-        width: 400px;
-        height: 200px;
-    }
-
-    .name-cont-1 {
-        font-size: 25px;
-    }     
-    .name-cont-3{
-        font-size: 14px;
-       
-    }
-    .icons .icon{
-        font-size: 22px;
-        top: -140px;
-        left: 5px;
-    }
-    .side-content{
-    width: 320px;
-    height: 80px;
-    font-size: 12px;
-    padding: 20px;
-    top:-1500px;
-    left: 40px;
-    text-align: center;
-    box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
-    }
-    
-    .box-content{
-    position: relative;
-    border: none;
-    left: 90px;
-    top: -1500px;
-    box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
-   }
-
-   .all-sections-1{
-    top: 130px;
-    text-align: center; 
-   }
-
-   .things-love{
-    top: 150px;
-    border: none;
-    flex-direction: column;
-   }
-
-   .design1, .tech2, .art3{
-    border: none;
-    width: 290px;
-    height: 390px;
-    margin: 20px;
-   }
-
-   .things-love img{
-    position: relative;
-    width: 240px;
-    top: -70px;
-   }
-
-   .things-love p{
-    top: -130px;   
-   }
-
-   .all-sections-2{
-    position: relative;
-    display: flex; 
-    justify-content: center;
-    font-size: 25px;
-    font-weight: bold;
-    color: #ff2222;
-    top: 100px;
-    }
-
-    #home{
-        width: 100%;
-        height: 2100px;
-        border: 1px solid white;
-    }
-
-    #about{
-        width: 100%;
-        height: 2000px;
-        border: 1px solid white;
-    }
-
-    .about-sec-1{      
-        align-items: center;
-        justify-content: center ;
-        flex-direction: column;
-        top: 120px;
-        height: 1000px;
-    }
-
-    .about-img img{
-        top: -250px;
-        left: 0px;
-        width: 500px;
-    }
-
-    .about-cont{
-        top: -260px;
-        font-size: 15px;
-        width: 280px;
-        text-align: center;
-    }
-
-    .artist{
-        flex-direction: column;
-        top: -280px;
-           
-    }
-
-    .art{
-        width: 250px;
-    }
-
-    .skill{
-        border: none;
-        position: relative;
-        top: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 600px;
-        flex-direction: column;
-        transition: 1s; 
-    }
-
-    .skill-1{
-        position: relative;
-        top: -20px;
-        border: none;
-        width: 350px;
-        height: 350px;        
-    }
-    
-    .skill-2{
-        position: relative;
-        top: -60px;
-        border: none;
-        width: 350px;
-        height: 350px; 
-    }
-
-    .skill img{
-        width: 150px;
-    }
-
-    .vector{
-        position: relative;
-        display: block;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: rgb(229, 226, 226);
-        font-weight: bold;
-        top: -300px;
-        z-index: -2;
-    }
-
-    .vec1-all, .vec2-all, .vec3-all, .vec4-all{
-        position: relative;
-        display: none;
-    }
-
-    .projects-all{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: relative;
-        top: 120px;
-
-    }
-
-    .card{
-        display: block;
-        margin: 20px;        
-    }
-
-    .projects-all .btn {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        width: 85px;
-        height: 40px;
-        font-size: 12px;
-        border: none;
-        padding: 10px;
-        border-radius: 5px;
-        background-color: #ff2222;
-        color: #fff;
-        cursor: pointer;
-        text-decoration: none;
-        transition: 0.5s;
-    } 
-
-    .git i{
-        position: relative;
-        border: none;
-        font-size: 40px;
-        color: #ff2222;
-        top: 10px;
-        left: 10px;
-        cursor: pointer;
-        text-decoration: none;
-        transition: 0.5s;
-    
-    }
-
-    .git i:hover, .git i:focus, .git i:active{
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    } 
-    
-    .all-projects{
-        position: relative;
-        display: block;
-    }
-
-    .pers-pro{
-        display: none;
-    }
-
-    #projects{
-        width: 100%;
-        height: 1550px;
-        border: 1px solid white;
-    }
-
-    #contact{
-        width: 100%;
-        height: 1200px;
-        border: 1px solid white;
-        }  
-
-    
-
-    .contact{
-
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        top: 170px;
-        padding: 10px 20px;
-        border: none;
-        
-    }
-
-    .chat{
-        border: none;
-        position: relative;
-        text-align: center;
-        top: 0px;
-        left: 0px;
-        width: 300px;
-        height: 610px;
-        border-radius: 10px;
-    }
-
-    .chat img{
-        width: 180px;
-        top: -45px;
-        right: 100px;
-    }
-
-    .chat #chat1 {
-        position: relative;
-        top: -170px;
-        left: 0px;
-        font-size: 18px;
-        font-weight: 600;
-    
-    }
-    
-    .chat #chat2 {
-        top: -180px;
-        left: 44px;
-        font-size: 14px;
-    }
-
-    .form{
-        border: none;
-        display: flex;
-        flex-direction: column;
-        background-color: #fff;
-        position: relative;
-        left: 0px;
-        width: 280px;
-        height: 500px;
-        padding: 48px;
-        top: -510px;
-        border-radius: 10px;
-        color: #383838;
-    }
-
-    .form #email-lab{
-        position: relative;
-        top: -70px;
-        right: 30px;
-    }
-
-    
-    .form #email-name {
-        right: 30px;
-        top: 10px;
-        width: 250px;        
-    }
-
-    .form #name-lab{
-        top: -30px;
-        left: -30px;    
-    }
-
-    .form #name-name {
-        position: relative;
-        left: -30px;
-        top: 45px;
-        width: 250px;
-        height: 40px;
-        padding: 20px;
-        border-radius: 5px;
-        border: none;    
-        background-color: #EAEAEA;
-        
-    }
-
-    
-    .form #msg-lab{
-        top: -155px;
-        right: 30px;
-    
-    }
-    
-    .form #msg-name {
-        position: relative;
-        right: 30px;
-        top: 75px;
-        width: 250px;        
-    }
-
-    form .btn {
-        width: 200px;
-        height: 40px;
-        top: 60px;
-        right: 8px;
-       
-    }
-
-    .form .btn #button{
-        position: relative;
-        top: -5px;
-        right: 0px;
-        width: 180px;
-        height: 30px;
-          
-    }
-
-    .footer {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: black;
-        background-color: #ff4949;
-        height: 170px;
-        font-weight: 500;
-        overflow: hidden;
-    }
-
-    .footer #foot-logo1 {
-        position: relative; 
-        display: flex;
-        top: 30px;
-        border: none;
-        left: 185px;
-        width: 55px;
-    }
-
-    .footer .foot-cont{
-        position: relative; 
-        display: flex;
-        justify-content: center;
-        top: 30px;
-    }
-
-
-    }*/
-
-
-    
+  
 
     @media screen and (max-width: 503px) and (min-width: 149px) {
 
         .navbar-expand-lg{
             display: none;
+        }
 
+        .navbar-1{
+            display: none;
         }
         
         .first-section{
@@ -476,6 +54,11 @@
             top: 10px;
             left: 0px;
             height: 200px;
+        }
+
+        .button .btn {
+            padding: 10px;
+            font-size: 10px;
         }
         
         .icons .icon{
@@ -898,7 +481,32 @@
             display: none;
         }
 
-        .bott-nav {
+        .nav-bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+            background-color: #ff2222;
+        }
+
+        .side-scroll-icons{
+            position: relative;
+            display: inline-block;
+            letter-spacing: 10px;
+            font-size: 22px;
+            top: 0px;
+            left: 0px;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+
+        .side-scroll-icons a{
+           color: #fff;
+        }  
+
+
+
+        /* .bott-nav {
             display: block;
             display: flex;
             justify-content: center;
@@ -913,14 +521,17 @@
             font-size: 24px;
             top: 0px;
             left: 0px;
-            /* left: -420px; */
-            text-decoration: none;
+             text-decoration: none;
             transition: 0.5s;
+            
+           
         }
 
         .side-scroll-icons a{
            color: #fff;
-        } 
+        }  
+        
+        left: -420px; */
 
     }
 
@@ -931,6 +542,11 @@
                 display: none;
     
             }
+
+            .navbar-1{
+                display: none;
+            }
+    
             
             .first-section{
                 top: 350px;
@@ -1378,11 +994,12 @@
                 width: 300px;
                 height: 200px;
                     }
-            .bott-nav {
-                display: block;
+            
+            .nav-bottom {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                height: 70px;
                 background-color: #ff2222;
                     }
                 
@@ -1390,28 +1007,40 @@
                 position: relative;
                 display: inline-block;
                 letter-spacing: 12px;
-                font-size: 26px;
+                font-size: 24px;
                 top: 0px;
                 left: 0px;
-                /* left: -420px; */
                 text-decoration: none;
                 transition: 0.5s;
                     }
                 
             .side-scroll-icons a{
-                color: #fff;
-                    } 
-
-                    
-                
+                color: #fff;                
                 
                 }
+
+                .footer{
+                    display: none;
+            
+                }
+
+
+
+
+            }
     @media screen and (max-width: 1024px) and (min-width: 726px) {
 
         #home{
             width: 100%;
             height: 1600px;
             border: 1px solid white;
+        }
+         .navbar-1 a img {
+            position: relative;
+            width: 55px;
+            padding: 0px;
+            left: 0px;
+        
         }
 
         .things-love{
@@ -1444,6 +1073,17 @@
             width: 100%;
             height: 1400px;
             border: 1px solid white;
+        }
+
+        .about-cont{
+            position: relative;
+            top: 60px;
+            left: 0px;
+            border:  none;
+            width: 700px;
+            height: 250px;
+            color: white;
+            font-size: 1.5vw;
         }
         
 
@@ -1560,8 +1200,8 @@
     
             border: 0px solid black;
             position: relative;
-            width: 500px;
-            left: 250px;
+            width: 53vw;
+            left: 240px;
             top: -310px;
             box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
             border-radius: 5px;
@@ -1571,8 +1211,8 @@
     
             border: 0px solid black;
             position: relative;
-            width: 500px;
-            left: 250px;
+            width: 53vw;
+            left: 240px;
             top: -320px;
             box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
             border-radius: 5px;
@@ -1582,8 +1222,8 @@
     
             border: 0px solid black;
             position: relative;
-            width: 500px;
-            left: 250px;
+            width: 53vw;
+            left: 240px;
             top: -290px;
             box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
             border-radius: 5px;
@@ -1629,13 +1269,13 @@
             }
         
             .chat{
-                border: none;
+                border: solid;
                 position: relative;
                 text-align: center;
                 top: 0px;
-                width: 350px;
-                left: 150px;
-                height: 380px;
+                width: 200px;
+                height: 300px;
+                left: 20px;
                 color: #fff;
                 border-radius: 10px;
                 background-color: #ff2222;  
@@ -1643,9 +1283,9 @@
             
             .chat img{
                 position: relative;
-                width: 300px;
-                top: -20px;
-                left: -30px;
+                width: 25vw;
+                top: -50px;
+                left: -40px;
                 transition: 1s;
             }
             
@@ -1655,17 +1295,19 @@
             
             .chat #chat1 {
                 position: relative;
-                top: -90px;
-                left: -25px;
-                font-size: 20px;
+                top: -110px;
+                left: -10px;
+                font-size: 2vw;
                 font-weight: 600;
             
             }
             
             .chat #chat2 {
                 position: relative;
-                top: -90px;
-                left: -20px;
+                top: -110px;
+                left: -10px;
+                font-size: 1.3vw;
+
             }
         
             .form{
@@ -1673,10 +1315,10 @@
                 background-color: #fff;
                 box-shadow: 2px 2px 2px rgb(243, 239, 239);
                 position: relative;
-                left: 100px;
-                height: 450px;
+                left: 0px;
+                width: 600px;
+                height: 400px;
                 padding: 48px;
-                width: 750px;
                 top: 0px;
                 border-radius: 10px;
                 color: #383838;
@@ -1685,7 +1327,7 @@
             .form #email-lab{
                 position: relative;
                 top: -20px;
-                right: 335px;
+                right: 235px;
                 color: #383838;
             }
             
@@ -1693,8 +1335,8 @@
                 position: relative;
                 right: 10px;
                 top: 25px;
-                width: 320px;
-                height: 40px;
+                width: 220px;
+                height: 20px;
                 padding: 20px;
                 border-radius: 5px;
                 border: none;
@@ -1705,17 +1347,17 @@
             .form #name-lab{
                 position: relative;
                 top: -60px;
-                left: 25px;
+                left: 75px;
                 color: #383838;
             
             }
             
             .form #name-name {
                 position: relative;
-                left: 350px;
+                left: 300px;
                 top: -15px;
-                width: 320px;
-                height: 40px;
+                width: 220px;
+                height: 20px;
                 padding: 20px;
                 border-radius: 5px;
                 border: none;    
@@ -1725,7 +1367,7 @@
             
             .form #msg-lab{
                 position: relative;
-                top: -185px;
+                top: -155px;
                 right: 10px;
                 color: #383838;
             
@@ -1736,6 +1378,8 @@
                 right: 10px;
                 top: 45px;
                 padding: 20px;
+                width: 530px;
+                height: 150px;
                 border-radius: 5px;
                 border: none;
                 background-color: #EAEAEA;
@@ -1826,4 +1470,4 @@
     
 
     }  
-         
+    
