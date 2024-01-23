@@ -1,0 +1,228 @@
+@media (max-width:991px) {
+    .nav-link{
+        text-align: center;
+    }
+
+    .side-design-cont{
+        font-size: 1000px;
+        top: -900px;
+        left:  600px;
+    
+    }
+    
+}
+
+@media (max-width:600px) {
+
+
+    .nav-link{
+        text-align: center;
+    }
+
+    .name{
+        top: 170px;
+        width: 100%;
+        height: 300px;        
+    }
+
+    .name img{
+        width: 150px;
+    }
+    
+    .name-cont-1 {
+        font-size: 30px;
+        margin-right: 10px;
+    
+    }
+    
+    .name-cont-3{
+        top: -50px;
+        right: 5px;
+        font-size: 15px;
+    }
+    
+    .button {
+        top: -30px;
+    }
+    
+    .button .btn {
+        width: 125px;
+        height: 35px;
+        font-size: 12px;              
+    }
+    
+    .icons .icon{
+        font-size: 20px;
+        top: 0px;
+        left: 5px;
+    }
+    .side-design-cont{
+        font-size: 1000px;
+        top: -950px;
+        left: 600px;
+    }
+
+    .footer{
+        height: 200px;
+        width: 100%;
+    }
+
+    .footer .foot1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        border: none;
+        margin: 10px;
+    }
+   
+    .footer .foot-cont{
+    position: relative; 
+    justify-content: center;
+    text-align: center;
+    border: none;
+    flex-direction: column;
+    display: flex;
+    top: auto;
+    line-height: 1px;
+    padding: 20px 20px;
+    }
+
+    .footer .foot-cont  #foot-logo2 {
+        position: relative; 
+        left: 0px;
+        top: 0px
+        }
+    }
+    @media (max-width:480px) {
+
+   
+        .footer{
+            height: 200px;
+            width: 100%;
+        }
+    
+        .footer .foot1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            border: none;
+            margin: 10px;
+        }
+       
+        .footer .foot-cont{
+        position: relative; 
+        justify-content: center;
+        text-align: center;
+        border: none;
+        flex-direction: column;
+        display: flex;
+        top: auto;
+        line-height: 1px;
+        padding: 20px 20px;
+        }
+    
+        .footer .foot-cont  #foot-logo2 {
+            position: relative; 
+            left: 0px;
+            top: 0px
+            }
+        }
+        
+    @media (max-width:317px) {
+
+        .name{
+            top: 190px;
+            width: 100%;
+            height: 300px;        
+        }
+
+        .name img{
+            width: 100px;
+        }
+        
+        .name-cont-1 {
+            font-size: 20px;
+            margin-right: 10px;
+        
+        }
+        
+        .name-cont-3{
+            top: -30px;
+            right: 5px;
+            font-size: 10px;
+        }
+        
+        .button {
+            top: -30px;
+        }
+        
+        .button .btn {
+            width: 125px;
+            height: 35px;
+            font-size: 12px;              
+        }
+        
+        .icons .icon{
+            font-size: 15px;
+            top: -20px;
+            left: 5px;
+        }
+        }
+
+        @media (max-width:220px) {
+
+            .name{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                top: 200px;
+                width: 100%;
+                height: 400px;
+               
+            
+            }
+            .name img{
+                position: relative;
+                width: 100px;
+            }
+
+            .name-cont-1 {
+
+                position: relative;
+                top: -20px;
+                font-size: 19px;
+            }
+
+            .name-cont-2{
+ 
+                position: relative;
+                top: -30px;
+                left: 5px;
+            }
+
+            .name-cont-3{
+    
+                position: relative; 
+                left: 5px;
+               
+            }
+
+            .side-design-cont{
+                position: relative;
+                display: flex;
+                justify-content: end;
+                flex-direction: row;
+                z-index: -2;
+                font-size: 1000px;
+                top: -1050px;
+                left:  600px;
+            
+            }
+            
+
+        }
+    

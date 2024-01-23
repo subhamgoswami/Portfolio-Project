@@ -1,0 +1,1829 @@
+@media (max-width:991px) {
+    .nav-link{
+        text-align: center;
+    }
+    
+}
+
+/*@media screen and (max-width: 480px) and (min-width: 301px) {
+
+    .nav-link {
+        font-size: 12px;
+    }
+    
+    .first-section{
+        top: 350px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .two-sec .side-design1 {
+        width: 1400px;
+        height: 1400px;
+        top: -1250px;
+        left: 350px;    
+    }
+
+    .one-sec{
+        position: relative;
+        top: -100px;
+        border: none;
+        text-align: center;
+        width: 400px;
+        height: 200px;
+    }
+
+    .name-cont-1 {
+        font-size: 25px;
+    }     
+    .name-cont-3{
+        font-size: 14px;
+       
+    }
+    .icons .icon{
+        font-size: 22px;
+        top: -140px;
+        left: 5px;
+    }
+    .side-content{
+    width: 320px;
+    height: 80px;
+    font-size: 12px;
+    padding: 20px;
+    top:-1500px;
+    left: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+    }
+    
+    .box-content{
+    position: relative;
+    border: none;
+    left: 90px;
+    top: -1500px;
+    box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+   }
+
+   .all-sections-1{
+    top: 130px;
+    text-align: center; 
+   }
+
+   .things-love{
+    top: 150px;
+    border: none;
+    flex-direction: column;
+   }
+
+   .design1, .tech2, .art3{
+    border: none;
+    width: 290px;
+    height: 390px;
+    margin: 20px;
+   }
+
+   .things-love img{
+    position: relative;
+    width: 240px;
+    top: -70px;
+   }
+
+   .things-love p{
+    top: -130px;   
+   }
+
+   .all-sections-2{
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff2222;
+    top: 100px;
+    }
+
+    #home{
+        width: 100%;
+        height: 2100px;
+        border: 1px solid white;
+    }
+
+    #about{
+        width: 100%;
+        height: 2000px;
+        border: 1px solid white;
+    }
+
+    .about-sec-1{      
+        align-items: center;
+        justify-content: center ;
+        flex-direction: column;
+        top: 120px;
+        height: 1000px;
+    }
+
+    .about-img img{
+        top: -250px;
+        left: 0px;
+        width: 500px;
+    }
+
+    .about-cont{
+        top: -260px;
+        font-size: 15px;
+        width: 280px;
+        text-align: center;
+    }
+
+    .artist{
+        flex-direction: column;
+        top: -280px;
+           
+    }
+
+    .art{
+        width: 250px;
+    }
+
+    .skill{
+        border: none;
+        position: relative;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        flex-direction: column;
+        transition: 1s; 
+    }
+
+    .skill-1{
+        position: relative;
+        top: -20px;
+        border: none;
+        width: 350px;
+        height: 350px;        
+    }
+    
+    .skill-2{
+        position: relative;
+        top: -60px;
+        border: none;
+        width: 350px;
+        height: 350px; 
+    }
+
+    .skill img{
+        width: 150px;
+    }
+
+    .vector{
+        position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: rgb(229, 226, 226);
+        font-weight: bold;
+        top: -300px;
+        z-index: -2;
+    }
+
+    .vec1-all, .vec2-all, .vec3-all, .vec4-all{
+        position: relative;
+        display: none;
+    }
+
+    .projects-all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 120px;
+
+    }
+
+    .card{
+        display: block;
+        margin: 20px;        
+    }
+
+    .projects-all .btn {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 85px;
+        height: 40px;
+        font-size: 12px;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #ff2222;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.5s;
+    } 
+
+    .git i{
+        position: relative;
+        border: none;
+        font-size: 40px;
+        color: #ff2222;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.5s;
+    
+    }
+
+    .git i:hover, .git i:focus, .git i:active{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+    
+    .all-projects{
+        position: relative;
+        display: block;
+    }
+
+    .pers-pro{
+        display: none;
+    }
+
+    #projects{
+        width: 100%;
+        height: 1550px;
+        border: 1px solid white;
+    }
+
+    #contact{
+        width: 100%;
+        height: 1200px;
+        border: 1px solid white;
+        }  
+
+    
+
+    .contact{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 170px;
+        padding: 10px 20px;
+        border: none;
+        
+    }
+
+    .chat{
+        border: none;
+        position: relative;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 610px;
+        border-radius: 10px;
+    }
+
+    .chat img{
+        width: 180px;
+        top: -45px;
+        right: 100px;
+    }
+
+    .chat #chat1 {
+        position: relative;
+        top: -170px;
+        left: 0px;
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
+    
+    .chat #chat2 {
+        top: -180px;
+        left: 44px;
+        font-size: 14px;
+    }
+
+    .form{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        position: relative;
+        left: 0px;
+        width: 280px;
+        height: 500px;
+        padding: 48px;
+        top: -510px;
+        border-radius: 10px;
+        color: #383838;
+    }
+
+    .form #email-lab{
+        position: relative;
+        top: -70px;
+        right: 30px;
+    }
+
+    
+    .form #email-name {
+        right: 30px;
+        top: 10px;
+        width: 250px;        
+    }
+
+    .form #name-lab{
+        top: -30px;
+        left: -30px;    
+    }
+
+    .form #name-name {
+        position: relative;
+        left: -30px;
+        top: 45px;
+        width: 250px;
+        height: 40px;
+        padding: 20px;
+        border-radius: 5px;
+        border: none;    
+        background-color: #EAEAEA;
+        
+    }
+
+    
+    .form #msg-lab{
+        top: -155px;
+        right: 30px;
+    
+    }
+    
+    .form #msg-name {
+        position: relative;
+        right: 30px;
+        top: 75px;
+        width: 250px;        
+    }
+
+    form .btn {
+        width: 200px;
+        height: 40px;
+        top: 60px;
+        right: 8px;
+       
+    }
+
+    .form .btn #button{
+        position: relative;
+        top: -5px;
+        right: 0px;
+        width: 180px;
+        height: 30px;
+          
+    }
+
+    .footer {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+        background-color: #ff4949;
+        height: 170px;
+        font-weight: 500;
+        overflow: hidden;
+    }
+
+    .footer #foot-logo1 {
+        position: relative; 
+        display: flex;
+        top: 30px;
+        border: none;
+        left: 185px;
+        width: 55px;
+    }
+
+    .footer .foot-cont{
+        position: relative; 
+        display: flex;
+        justify-content: center;
+        top: 30px;
+    }
+
+
+    }*/
+
+
+    
+
+    @media screen and (max-width: 503px) and (min-width: 149px) {
+
+        .navbar-expand-lg{
+            display: none;
+
+        }
+        
+        .first-section{
+            top: 350px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .two-sec .side-design1 {
+            width: 1400px;
+            height: 1400px;
+            top: -1350px;
+            left: 370px;    
+        }
+    
+        .one-sec{
+            position: relative;
+            top: -220px;
+            border: none;
+            text-align: center;
+            width: 400px;
+            height: 200px;
+        }
+        .my-image{
+            position: relative;
+            width: 122px;
+            top: -1px;
+            left: 3px;
+        }
+    
+        .name-cont-1 {
+            font-size: 25px;
+        }     
+        .name-cont-3{
+            position: relative;
+            top: -10px;
+            font-size: 13px;
+           
+        }
+
+        .button {
+            position: relative;
+            top: 10px;
+            left: 0px;
+            height: 200px;
+        }
+        
+        .icons .icon{
+            font-size: 22px;
+            top: -120px;
+            left: 5px;
+        }
+        .side-content{
+        width: 320px;
+        height: 120px;
+        font-size: 11.5px;
+        text-transform: capitalize;
+        padding: 29px;
+        top:-1580px;
+        left: 40px;
+        text-align: center;
+        box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+       
+        }
+        
+        .box-content{
+        position: relative;
+        border: none;
+        width: 220px;
+        height: 50px;
+        left: 95px;
+        top: -1550px;
+        box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+       }
+    
+       .all-sections-1{
+        top: 50px;
+        text-align: center; 
+       }
+    
+       .things-love{
+        top: 50px;
+        border: none;
+        flex-direction: column;
+       }
+    
+       .design1, .tech2, .art3{
+        border: none;
+        width: 200px;
+        height: 320px;
+        margin: 20px;
+       }
+    
+       .things-love img{
+        position: relative;
+        width: 150px;
+        top: -60px;
+       }
+
+    
+       .things-love p{
+        top: -95px;   
+        font-size: 12px;
+       }
+    
+       .all-sections-2{
+        position: relative;
+        display: flex; 
+        justify-content: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: #ff2222;
+        top: 100px;
+        }
+    
+        #home{
+            width: 100%;
+            height: 1800px;
+            border: 1px solid white;position: relative;
+            top: -50px;
+        }
+    
+        #about{
+            width: 100%;
+            height: 2000px;
+            border: 1px solid white;
+        }
+
+        .about-1{
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: #ff2222;
+            top: 0px;
+        }
+        
+        .about-2 {
+        position: relative;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        color: #383838;
+        top: 0px;
+        font-weight: none;
+        
+        }
+    
+        .about-sec-1{      
+            align-items: center;
+            justify-content: center ;
+            flex-direction: column;
+            top: 20px;
+            height: 1000px;
+            background-color: #ff2222;
+        }
+    
+        .about-img img{
+            top: -250px;
+            left: 0px;
+            width: 500px;
+        }
+    
+        .about-cont{
+            top: -260px;
+            font-size: 14px;
+            width: 240px;
+            height: 200px;
+            text-align: center;
+        }
+    
+        .artist{
+            flex-direction: column;
+            top: -340px;
+               
+        }
+    
+        .art{
+            width: 250px;
+            font-size: 20px;
+        }
+
+        .skills, .tools{
+            top: -120px;
+
+        }
+        .skill{
+            border: none;
+            position: relative;
+            top: -20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            flex-direction: column;
+            transition: 1s; 
+        }
+        .skill-1{
+            position: relative;
+            top: -40px;
+            border: none;
+            width: 350px;
+            height: 350px;        
+        }   
+
+        .skill-2{
+            position: relative;
+            top: -60px;
+            border: none;
+            width: 350px;
+            height: 350px;        
+        }  
+
+    
+        .skill img{
+            width: 150px;
+            color: white;
+        }
+    
+        .vector{
+            display: none;
+        }
+    
+       
+    
+        #projects{
+            width: 100%;
+            height: 1400px;
+            border: 1px solid white;
+        }
+
+        .per-pro-1{
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: #ff2222;
+            top: 0px;
+        }
+    
+        .per-pro-2 {
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: #383838;
+            top: 0px;
+            font-weight: none;
+            
+        }
+
+
+        .pro1{
+            position: relative;
+            right: 9px;
+        }
+
+
+        .projects-all{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            top: 20px;
+            border: none;
+        }
+    
+        .card{
+            display: block;
+            margin: 20px;     
+            width: 100px;
+        }
+    
+        .projects-all .btn {
+            position: relative;
+            top: 0px;
+            left: 0px;
+            width: 85px;
+            height: 40px;
+            font-size: 12px;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #ff2222;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.5s;
+        } 
+    
+        .git i{
+            position: relative;
+            border: none;
+            font-size: 40px;
+            color: #ff2222;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.5s;
+        
+        }
+       
+        .all-projects{
+            position: relative;
+            display: block;
+        }
+    
+        .pers-pro{
+            display: none;
+        }    
+    
+        #contact{
+            width: 100%;
+            height: 900px;
+            border: 1px solid white;
+            }  
+    
+        .contact{
+    
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            top: 120px;
+            padding: 10px 20px;
+            border: none;
+            
+        }
+    
+        .chat{
+            border: none;
+            position: relative;
+            text-align: center;
+            top: 0px;
+            left: 0px;
+            width: 300px;
+            height: 660px;
+            border-radius: 10px;
+            background-color: #ff2222;
+        }
+    
+        .chat img{
+            width: 180px;
+            top: -45px;
+            right: 90px;
+        }
+    
+        .chat #chat1 {
+            position: relative;
+            top: -170px;
+            left: 0px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .chat #chat2 {
+            top: -180px;
+            left: 44px;
+            font-size: 14px;
+        }
+    
+        .form{
+            border: none;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            box-shadow: none;
+            position: relative;
+            left: 0px;
+            width: 280px;
+            height: 500px;
+            padding: 48px;
+            top: -540px;
+            border-radius: 10px;
+            color: #383838;
+        }
+    
+        .form #email-lab{
+            position: relative;
+            top: -70px;
+            right: 30px;
+        }
+    
+        
+        .form #email-name {
+            right: 30px;
+            top: 10px;
+            width: 250px;        
+        }
+    
+        .form #name-lab{
+            top: -30px;
+            left: -30px;    
+        }
+    
+        .form #name-name {
+            position: relative;
+            left: -30px;
+            top: 45px;
+            width: 250px;
+            height: 40px;
+            padding: 20px;
+            border-radius: 5px;
+            border: none;    
+            background-color: #EAEAEA;
+            
+        }
+    
+        
+        .form #msg-lab{
+            top: -155px;
+            right: 30px;
+        
+        }
+        
+        .form #msg-name {
+            position: relative;
+            right: 30px;
+            top: 75px;
+            width: 250px;        
+        }
+    
+        form .btn {
+            width: 200px;
+            height: 40px;
+            top: 60px;
+            right: 8px;
+            background-color: #ff2222;
+
+        }
+    
+        .form .btn #button{
+            position: relative;
+            top: -5px;
+            right: 0px;
+            width: 180px;
+            height: 30px;
+            background-color: #ff2222;
+              
+        }
+
+         #brand-identity{
+            width: 100%;
+            height: 420px;
+            border: 1px solid white;
+            }  
+
+
+        .carousel{
+            position: relative;
+            top: 80px;
+            border: none;
+            width: 300px;
+            height: 200px;
+        }
+    
+        .footer {
+            display: none;
+        }
+
+        .bott-nav {
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ff2222;
+        }
+
+        .side-scroll-icons{
+            position: relative;
+            display: inline-block;
+            letter-spacing: 10px;
+            font-size: 24px;
+            top: 0px;
+            left: 0px;
+            /* left: -420px; */
+            text-decoration: none;
+            transition: 0.5s;
+        }
+
+        .side-scroll-icons a{
+           color: #fff;
+        } 
+
+    }
+
+
+    @media screen and (max-width: 725px) and (min-width: 504px) {
+
+            .navbar-expand-lg{
+                display: none;
+    
+            }
+            
+            .first-section{
+                top: 350px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        
+            .two-sec .side-design1 {
+                width: 1400px;
+                height: 1400px;
+                top: -1350px;
+                left: 370px;    
+            }
+        
+            .one-sec{
+                position: relative;
+                top: -220px;
+                border: none;
+                text-align: center;
+                width: 400px;
+                height: 200px;
+            }
+        
+            .name-cont-1 {
+                font-size: 40px;
+            }     
+            .name-cont-3{
+                position: relative;
+                top: -10px;
+                font-size: 16px;
+               
+            }
+    
+            .button {
+                position: relative;
+                top: 10px;
+                left: 0px;
+                height: 200px;
+            }
+            
+            .icons .icon{
+                font-size: 22px;
+                top: -120px;
+                left: 5px;
+            }
+            .side-content{
+                border: none;
+                width: 380px;
+                height: 130px;
+                font-size: 13px;
+                text-transform: capitalize;
+                padding: 35px;
+                top:-1550px;
+                left: 10px;
+                text-align: center;
+                box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+           
+            }
+            
+            .box-content{
+            position: relative;
+            border: none;
+            width: 220px;
+            height: 50px;
+            left: 95px;
+            top: -1550px;
+            box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+           }
+        
+           .all-sections-1{
+            top: 50px;
+            text-align: center; 
+           }
+        
+           .things-love{
+            top: 50px;
+            border: none;
+            flex-wrap: wrap;
+           }
+        
+           .design1, .tech2, .art3{
+            border: none;
+            width: 200px;
+            height: 320px;
+            margin: 20px;
+           }
+        
+           .things-love img{
+            position: relative;
+            width: 150px;
+            top: -60px;
+           }
+    
+        
+           .things-love p{
+            top: -95px;   
+            font-size: 12px;
+           }
+        
+           .all-sections-2{
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: #ff2222;
+            top: 100px;
+            }
+        
+            #home{
+                width: 100%;
+                height: 1400px;
+                border: 1px solid white;
+                position: relative;
+                top: -50px;
+            }
+        
+            #about{
+                width: 100%;
+                height: 1800px;
+                border: 1px solid white;
+            }
+        
+            .about-sec-1{      
+                align-items: center;
+                justify-content: center ;
+                flex-direction: column;
+                top: 150px;
+                height: 1000px;
+                background-color: #ff2222;
+            }
+        
+            .about-img img{
+                top: -250px;
+                left: 0px;
+                width: 500px;
+            }
+        
+            .about-cont{
+                top: -260px;
+                font-size: 16px;
+                width: 440px;
+                height: 200px;
+                text-align: center;
+            }
+        
+            .artist{
+                flex-direction: column;
+                top: -260px;
+                   
+            }
+        
+            .art{
+                width: 300px;
+                font-size: 20px;
+            }
+    
+            .skills, .tools{
+                top: -50px;
+    
+            }
+            .skill{
+                border: none;
+                position: relative;
+                top: 0px;
+                display: flex;
+                justify-content: none;
+                flex-direction: none;
+                align-items: center;
+                height: 600px;
+                transition: 1s; 
+            }
+            .skill-1{
+                position: relative;
+                top: -150px;
+                border: none;
+                width: 650px;
+                height: 150px;        
+            }   
+    
+            .skill-2{
+                position: relative;
+                top: -150px;
+                border: none;
+                width: 650px;
+                height: 150px;        
+            }  
+    
+        
+            .skill img{
+                width: 150px;
+                color: white;
+            }
+        
+            .vector{
+                display: none;
+            }
+        
+           
+        
+            #projects{
+                width: 100%;
+                height: 1400px;
+                border: 1px solid white;
+            }
+    
+            .pro1{
+                position: relative;
+                right: 9px;
+            }
+    
+    
+            .projects-all{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                position: relative;
+                top: 20px;
+                border: none;
+            }
+        
+            .card{
+                display: block;
+                margin: 20px;     
+                width: 100px;
+            }
+        
+            .projects-all .btn {
+                position: relative;
+                top: 0px;
+                left: 0px;
+                width: 85px;
+                height: 40px;
+                font-size: 12px;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #ff2222;
+                color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+                transition: 0.5s;
+            } 
+        
+            .git i{
+                position: relative;
+                border: none;
+                font-size: 40px;
+                color: #ff2222;
+                top: 10px;
+                left: 10px;
+                cursor: pointer;
+                text-decoration: none;
+                transition: 0.5s;
+            
+            }
+           
+            .all-projects{
+                position: relative;
+                display: block;
+            }
+
+            .per-pro-1{
+                position: relative;
+                display: flex; 
+                justify-content: center;
+                font-size: 25px;
+                font-weight: bold;
+                color: #ff2222;
+                top: 0px;
+            }
+        
+            .per-pro-2 {
+                position: relative;
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                color: #383838;
+                top: 0px;
+                font-weight: none;
+                
+            }
+        
+            .pers-pro{
+                display: none;
+            }    
+        
+            #contact{
+                width: 100%;
+                height: 900px;
+                border: 1px solid white;
+                }  
+                
+            .contact{
+        
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                top: 120px;
+                padding: 10px 20px;
+                border: none;
+                
+            }
+        
+            .chat{
+                border: none;
+                position: relative;
+                text-align: center;
+                top: 0px;
+                left: 0px;
+                width: 650px;
+                height: 660px;
+                border-radius: 10px;
+                background-color: #ff2222;
+            }
+        
+            .chat img{
+                width: 200px;
+                top: -45px;
+                left: -260px;
+            }
+        
+            .chat #chat1 {
+                position: relative;
+                top: -190px;
+                left: -120px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            
+            .chat #chat2 {
+                top: -200px;
+                left: -68px;
+                font-size: 16px;
+            }
+        
+            .form{
+                border: none;
+                display: flex;
+                flex-direction: column;
+                background-color: #fff;
+                box-shadow: none;
+                position: relative;
+                left: 0px;
+                width: 600px;
+                height: 500px;
+                padding: 48px;
+                top: -540px;
+                border-radius: 10px;
+                color: #383838;
+            }
+        
+            .form #email-lab{
+                position: relative;
+                top: -40px;
+                left: -280px;
+            }
+        
+            
+            .form #email-name {
+                right: 30px;
+                top: 10px;
+                width: 250px;        
+            }
+        
+            .form #name-lab{
+                top: -80px;
+                left: -10px;    
+            }
+        
+            .form #name-name {
+                position: relative;
+                left: 240px;
+                top: -30px;
+                width: 250px;
+                height: 40px;
+                padding: 20px;
+                border-radius: 5px;
+                border: none;    
+                background-color: #EAEAEA;
+                
+            }
+        
+            
+            .form #msg-lab{
+                top: -185px;
+                left: -25px;
+                
+            
+            }
+            
+            .form #msg-name {
+                position: relative;
+                right: 30px;
+                top: 50px;
+                width: 520px;        
+            }
+        
+            form .btn {
+                width: 200px;
+                height: 40px;
+                top: 60px;
+                left: -28px;
+                background-color: #ff2222;
+                
+    
+            }
+        
+            .form .btn #button{
+                position: relative;
+                top: -5px;
+                right: 0px;
+                width: 180px;
+                height: 30px;
+                background-color: #ff2222; 
+                  
+            }
+
+            #brand-identity{ 
+                width: 100%;
+                height: 420px;
+                border: 1px solid white;
+                }  
+
+            .brand{
+                    position: relative;
+                    display: flex; 
+                    justify-content: center;
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: #ff2222;
+                    top: 0px;
+                    z-index: +2;
+                }
+
+            .carousel{
+                position: relative;
+                top: 80px;
+                border: none;
+                width: 300px;
+                height: 200px;
+                    }
+            .bott-nav {
+                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #ff2222;
+                    }
+                
+            .side-scroll-icons{
+                position: relative;
+                display: inline-block;
+                letter-spacing: 12px;
+                font-size: 26px;
+                top: 0px;
+                left: 0px;
+                /* left: -420px; */
+                text-decoration: none;
+                transition: 0.5s;
+                    }
+                
+            .side-scroll-icons a{
+                color: #fff;
+                    } 
+
+                    
+                
+                
+                }
+    @media screen and (max-width: 1024px) and (min-width: 726px) {
+
+        #home{
+            width: 100%;
+            height: 1600px;
+            border: 1px solid white;
+        }
+
+        .things-love{
+            position: relative;
+            top: 250px;
+            border: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            font-size: 14px;
+    
+        }
+
+        .design1, .tech2, .art3{
+            position: relative;
+            flex-wrap: nowrap;
+            border: none;
+            width: 300px;
+            height: 400px;
+            margin: 20px;
+            text-align: center;
+            box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+            color: #383838;
+            padding: 25px ;
+        
+        }
+
+        #about{
+            width: 100%;
+            height: 1400px;
+            border: 1px solid white;
+        }
+        
+
+        .artist{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            top: -80px;
+            position: relative;
+            border: none;
+            height: 200px;
+            margin: 20px;
+            transition: 1s;
+        
+        }
+
+        .skill{
+            border: none;
+            position: relative;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            flex-wrap: nowrap;
+            transition: 1s; 
+        }
+        
+        .skill-1{
+            border: none;
+            width: 100%;
+            height: 200px;
+            background-color: none;
+            text-align: center;
+        }
+        
+        .skill-2{
+            border: none;
+            width: 100%;
+            height: 200px;
+            background-color: none;
+            text-align: center;
+        }
+        
+        .skill img{
+            width: 24vw;
+        }
+
+        #projects{
+            width: 100%;
+            height: 1600px;
+            border: 1px solid white;
+        }
+
+        .pers-pro{
+            border: none;
+            width: 700px;
+            height: 400px;
+            color: red;
+            margin: 40px;
+            position: relative;
+            top: -80px;
+        }
+
+        .all-projects{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: none;
+            top: 200px;
+        }
+    
+       .learn-code {
+    
+            border: 0px solid black;
+            position: relative;
+            padding: 40px;
+            top: 0px;
+            left: 0px;
+            width: 300px;
+            height: 380px;
+            box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+        
+        }
+        
+        .learn-code #learn1{
+        
+            font-size: 24px;
+            font-weight: bold;
+            color: #383838;
+        }
+        
+        
+        .learn-code .btn {
+            position: relative;
+            top: 70px;
+            left: 0px;
+            width: 85px;
+            height: 40px;
+            font-size: 12px;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #ff2222;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.5s;
+        } 
+    
+        .learn-code #learn4{
+    
+            border: 0px solid black;
+            position: relative;
+            width: 500px;
+            left: 250px;
+            top: -310px;
+            box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+            border-radius: 5px;
+        }
+
+        .learn-code #learn5{
+    
+            border: 0px solid black;
+            position: relative;
+            width: 500px;
+            left: 250px;
+            top: -320px;
+            box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+            border-radius: 5px;
+        }
+
+        .learn-code #learn6{
+    
+            border: 0px solid black;
+            position: relative;
+            width: 500px;
+            left: 250px;
+            top: -290px;
+            box-shadow: 2px 2px 2px 3px rgb(243, 239, 239);
+            border-radius: 5px;
+        }
+        
+        .learn-code .btn:hover, .learn-code .btn:focus, .learn-code .btn:active{
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            background-color: #ff2222;
+        }
+        
+        .github .git{
+            position: relative;
+            display: inline-block;
+            font-size: 40px;
+            top: 18px;
+            left: 100px;
+            cursor: pointer;
+            color: #ff2222;
+            text-decoration: none;
+            transition: 0.5s;
+        
+        }
+        
+        .git:hover, .git:focus, .git:active{
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        } 
+
+        #contact{
+            width: 100%;
+            height: 700px;
+            border: 1px solid white;
+            }
+            .contact{
+
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 120px;
+                border: none;
+            }
+        
+            .chat{
+                border: none;
+                position: relative;
+                text-align: center;
+                top: 0px;
+                width: 350px;
+                left: 150px;
+                height: 380px;
+                color: #fff;
+                border-radius: 10px;
+                background-color: #ff2222;  
+            }
+            
+            .chat img{
+                position: relative;
+                width: 300px;
+                top: -20px;
+                left: -30px;
+                transition: 1s;
+            }
+            
+            .chat img:hover, .chat img:focus, .chat img:active{
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);}
+            
+            .chat #chat1 {
+                position: relative;
+                top: -90px;
+                left: -25px;
+                font-size: 20px;
+                font-weight: 600;
+            
+            }
+            
+            .chat #chat2 {
+                position: relative;
+                top: -90px;
+                left: -20px;
+            }
+        
+            .form{
+                border: none;
+                background-color: #fff;
+                box-shadow: 2px 2px 2px rgb(243, 239, 239);
+                position: relative;
+                left: 100px;
+                height: 450px;
+                padding: 48px;
+                width: 750px;
+                top: 0px;
+                border-radius: 10px;
+                color: #383838;
+            }
+            
+            .form #email-lab{
+                position: relative;
+                top: -20px;
+                right: 335px;
+                color: #383838;
+            }
+            
+            .form #email-name {
+                position: relative;
+                right: 10px;
+                top: 25px;
+                width: 320px;
+                height: 40px;
+                padding: 20px;
+                border-radius: 5px;
+                border: none;
+                background-color:#EAEAEA;
+                
+            }
+            
+            .form #name-lab{
+                position: relative;
+                top: -60px;
+                left: 25px;
+                color: #383838;
+            
+            }
+            
+            .form #name-name {
+                position: relative;
+                left: 350px;
+                top: -15px;
+                width: 320px;
+                height: 40px;
+                padding: 20px;
+                border-radius: 5px;
+                border: none;    
+                background-color: #EAEAEA;
+                
+            }
+            
+            .form #msg-lab{
+                position: relative;
+                top: -185px;
+                right: 10px;
+                color: #383838;
+            
+            }
+            
+            .form #msg-name {
+                position: relative;
+                right: 10px;
+                top: 45px;
+                padding: 20px;
+                border-radius: 5px;
+                border: none;
+                background-color: #EAEAEA;
+                resize: none;
+                
+            }
+        
+        
+            form .btn {
+                position: relative;
+                background-color: #ff2222;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+                width: 310px;
+                height: 40px;
+                top: 35px;
+                right: 10px;
+                font-size: 12px;
+                transition: 0.5s;
+            }
+            
+            .form .btn #button{
+                position: relative;
+                top: -5px;
+                left: -10px;
+                width: 300px;
+                height: 30px;
+                border: none;
+                border-radius: 5px;
+                background-color: #ff2222;
+                color: #fff;
+                font-size: 12px;    
+            }
+            form i {
+                position: relative;
+                top: 0;
+                right: 5px;
+                font-size: 12px;
+            }
+            
+            .btn:hover, .btn:focus, .btn:active{
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+                
+            }
+            
+            form .btn i {
+                position: relative;
+                color: #fff;
+                padding: 10px;
+                width: 300px;
+                height: 40px;
+                top: 0px;
+                left: 7px;
+                font-size: 12px;
+                transition: 0.5s;
+            }
+
+            
+            #brand-identity{ 
+                width: 100%;
+                height: 420px;
+                border: 1px solid white;
+                }  
+
+            .brand{
+                position: relative;
+                display: flex; 
+                justify-content: center;
+                font-size: 25px;
+                font-weight: bold;
+                color: #ff2222;
+                top: 0px;
+                z-index: +2;
+            }
+        
+            .carousel{
+                border: none;
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                top: 40px;
+            }
+                
+    
+
+    }  
+         
