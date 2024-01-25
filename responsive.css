@@ -21,7 +21,7 @@
             width: 1400px;
             height: 1400px;
             top: -1350px;
-            left: 370px;    
+            left: 370px;  
         }
     
         .one-sec{
@@ -487,6 +487,7 @@
             align-items: center;
             height: 70px;
             background-color: #ff2222;
+            overflow-x: hidden;
         }
 
         .side-scroll-icons{

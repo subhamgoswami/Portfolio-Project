@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
 main{
     width: 100%;
     margin: auto;
-    overflow-x: hidden;
+    overflow: hidden;
  }
 
  .navbar-1{
@@ -141,9 +141,7 @@ main{
     background-color: #ff2222;
     z-index: -2;
     rotate: 135deg;   
-    overflow-x: hidden;
 
- 
 }
 
 .name-cont-1 {
