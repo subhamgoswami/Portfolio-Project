@@ -9,14 +9,14 @@
         .navbar-1{
             display: none;
         }
-        
+
         .first-section{
             top: 350px;
             justify-content: center;
             align-items: center;
             flex-direction: column;
         }
-    
+
         .two-sec .side-design1 {
             width: 1400px;
             height: 1400px;

@@ -32,6 +32,7 @@ body::-webkit-scrollbar {
 main{
     width: 100%;
     margin: auto;
+    overflow-x: hidden;
  }
 
  .navbar-1{
@@ -66,31 +67,6 @@ main{
 .navbar-2 a:hover{
     color: black;
 }
-
-
-
-
-/* .navbar{
-    position: fixed;
-    width: 100%;
-    background-color: #f7f7f7;
-    z-index: +2; 
-    
-}
-.navbar a img {
-    position: relative;
-    width: 55px;
-    padding: 0px;
-    left: 0px;
-
-}
-.nav-link {
-    position: relative;
-    right: 0px;
-    color: #ff2222;
-    font-size: 15px;
-    margin-left: 15px;
-} */
 
 .footer {
     display: flex;
@@ -164,7 +140,10 @@ main{
     left: 0px;
     background-color: #ff2222;
     z-index: -2;
-    rotate: 135deg;
+    rotate: 135deg;   
+    overflow-x: hidden;
+
+ 
 }
 
 .name-cont-1 {
@@ -417,18 +396,17 @@ font-weight: none;
     padding: 40px;
 }
 
-/* .about-img{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border: solid;
-} */
-
 .about-img img{
     position: relative;
     top: 0px;
     left: 30px;
     width: 500px;
+    transition: 1s;
+}
+
+.about-img img:hover, .about-img img:focus, .about-img img:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .about-cont{
